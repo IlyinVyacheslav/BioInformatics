@@ -1,0 +1,10 @@
+*.txt
+!Homo_sapience_KRT19.txt
+*.clustalo
+*.muscle
+!Homo_sapience_KRT19.muscle
+KPHS_18380_datasets
+KPHS_37010_datasets
+KPHS_p200360_datasets
+KPHS_p200640_datasets
+ncbi_dataset
