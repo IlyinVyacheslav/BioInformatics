@@ -5,38 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e77b662-c9b5-406e-840e-22641ed58317" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/BioInformatics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BioInformatics.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/.idea/BioProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/BioProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/KRT19/Homo_sapience_KRT19.muscle" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/KRT19/Homo_sapience_KRT19.muscle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/KRT19/Homo_sapience_KRT19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/KRT19/Homo_sapience_KRT19.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/KRT19/krt19_cds.docx" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/KRT19/krt19_cds.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/WorkDistrib.py" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/WorkDistrib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/clustal-omega-1.2.2-win64/ChangeLog" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/clustal-omega-1.2.2-win64/ChangeLog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/clustal-omega-1.2.2-win64/INSTALL" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/clustal-omega-1.2.2-win64/INSTALL" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/clustal-omega-1.2.2-win64/README" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/clustal-omega-1.2.2-win64/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/clustal-omega-1.2.2-win64/clustalo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/clustal-omega-1.2.2-win64/clustalo.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/clustal-omega-1.2.2-win64/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/clustal-omega-1.2.2-win64/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/clustal-omega-1.2.2-win64/libgcc_s_sjlj-1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/clustal-omega-1.2.2-win64/libgcc_s_sjlj-1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/clustal-omega-1.2.2-win64/libgomp-1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/clustal-omega-1.2.2-win64/libgomp-1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/clustal-omega-1.2.2-win64/libstdc++-6.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/clustal-omega-1.2.2-win64/libstdc++-6.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/clustal-omega-1.2.2-win64/pthreadGC2-w64.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/clustal-omega-1.2.2-win64/pthreadGC2-w64.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/gene_download.py" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/gene_download.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/mrna_download.py" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/mrna_download.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/muscle.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/muscle.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/muscle5.1.linux_intel64" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/muscle5.1.linux_intel64" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/muscle5.1.macos_arm64" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/muscle5.1.macos_arm64" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/sequence_download.py" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/sequence_download.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject/задание.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/задание.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/BioProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/BioProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BioProject_SeqAlignment/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +25,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2drb7OhIN9lFHsRLFBH9YlT0B7S" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -62,7 +38,7 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Merging main",
     "last_opened_file_path": "C:/BioInformatics"
   }
 }]]></component>
