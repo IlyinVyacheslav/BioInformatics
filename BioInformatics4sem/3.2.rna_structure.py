@@ -1,3 +1,4 @@
+# RNA secondary structure. returns representation of paired bases in an optimal secondary structure without crossings
 weights = {
     ('A', 'U'): 1,
     ('U', 'A'): 1, 
@@ -41,7 +42,7 @@ for x in range(2, n):
         ind = max(range(i,j), key=lambda k : dp[i][k] + dp[k+1][j])
         tmp = dp[i][ind] + dp[ind+1][j]
         diag = dp[i+1][j-1] + weights.get((s[i], s[j]), 0)
-        if (diag >= tmp):
+        if diag >= tmp:
             dp[i][j] = diag
             path[i][j] = (i+1, j-1, 1) if weights.get((s[i], s[j]), 0) == 1 else (i+1,j-1)
         else:

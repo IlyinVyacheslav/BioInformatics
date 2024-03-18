@@ -1,3 +1,4 @@
+# Low-memory global alignment. Hirschberg’s algorithm
 match = 2
 mismatch = -1
 gap = -2
@@ -27,6 +28,7 @@ def N_W(l, s):
     if not appended:
         ans[0] = l
     return ["".join(ans), s]            
+
 
 def Hirschberg(s, t):
     n = len(s)
