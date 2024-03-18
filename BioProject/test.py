@@ -22,9 +22,6 @@ def two_seq_alignment(sequences, output_file):
     with open(output_file, "w") as file:
         alignments = pairwise2.align.globalms(Seq(sequences[0]), Seq(sequences[1]), 1, -1, -2, -2)
         file.write(pairwise2.format_alignment(*alignments[0]))
-        # for alignment in alignments:
-        #     print("aaa")
-        #     file.write(pairwise2.format_alignment(*alignment))
 
 
 def alignment_clustalo_muscle(in_file, out_file, algorithm_is_muscle=True):
@@ -189,47 +186,76 @@ def print_2d_distance_matrix(table, clusters, name):
         # plt.text(x, y, table.names[i], va='bottom', ha='center', fontsize='large')
 
 
-def main():
+def extract_sequences(txt_path, start, end):
+    with open(txt_path, 'r') as file:
+        lines = file.readlines()
+
+    sequences = []
+    header = None
+    sequence = ''
+
+    for line in lines:
+        if line.startswith('>'):
+            if header and sequence:
+                subsequence = sequence[start:end]
+                sequences.append((header, subsequence))
+            header = line.strip()
+            sequence = ''
+        else:
+            sequence += line.strip()
+
+    # Add the last sequence
+    if header and sequence:
+        subsequence = sequence[start:end]
+        sequences.append((header, subsequence))
+
+    return sequences
+
+
+def write_to_txt(sequences, txt_path):
+    with open(txt_path, 'w') as file:
+        for header, subsequence in sequences:
+            file.write(header + '\n')
+            file.write(subsequence + '\n\n')
+
+
+def main(input_file_name):
+
     # print(consensus_seq("output.muscle"))
-    # alignment_with_clustalo("seq.txt", "output.clustalo")
-    # alignment_with_muscle("seq.txt", "output.muscle")
+    alignment_with_clustalo(input_file_name, "krt_19.clustalo")
+    alignment_with_muscle(input_file_name, "krt_19.muscle")
     print("alignment done")
-    # muscle_alignment = AlignIO.read("output8001200.muscle", "fasta")
-    clustalo_alignment = AlignIO.read("all_sequences800-1200.muscle", "fasta")
+    muscle_alignment = AlignIO.read("krt_19.muscle", "fasta")
+    clustalo_alignment = AlignIO.read("krt_19.clustalo", "fasta")
 
     calc = DistanceCalculator('identity')  # distance matrices
 
     clustalo_distance_table = calc.get_distance(clustalo_alignment)
-    # muscle_distance_table = calc.get_distance(muscle_alignment)
+    muscle_distance_table = calc.get_distance(muscle_alignment)
 
-    clustalo_clusters = clustering(clustalo_distance_table, 0.2)
-    # muscle_clusters = clustering(muscle_distance_table, 0.2)
-    # for i in range(1, 10):
-    #     print("epsilon: ", i / 10)
-    #     clustering(muscle_distance_table, i / 10)
-    #     clustering(clustalo_distance_table, i / 10)
+    clustalo_clusters = clustering(clustalo_distance_table, 0.6)
+    muscle_clusters = clustering(muscle_distance_table, 0.6)
+    for i in range(1, 10):
+        print("epsilon: ", i / 10)
+        clustering(muscle_distance_table, i / 10)
+        clustering(clustalo_distance_table, i / 10)
 
-    # fig = plt.figure(2, (8, 4))
-    # fig.add_subplot(121)  # making images
+    fig = plt.figure(2, (8, 4))
+    fig.add_subplot(121)  # making images
     print_2d_distance_matrix(clustalo_distance_table, clustalo_clusters[0], "clustalo")
-    # fig.add_subplot(122)
-    # print_2d_distance_matrix(muscle_distance_table, muscle_clusters[0], "muscle")
-    # fig.subplots_adjust(wspace=0.2, hspace=0.5)
+    fig.add_subplot(122)
+    print_2d_distance_matrix(muscle_distance_table, muscle_clusters[0], "muscle")
+    fig.subplots_adjust(wspace=0.2, hspace=0.5)
 
     plt.show()
 
-    res = open("consensus8001200.txt", "w")  # file with final consensus sequences
-    get_consensus_from_clusters(clustalo_clusters[1], "all_sequences800-1200.txt", res, False)
-    # get_consensus_from_clusters(muscle_clusters[1], "seq.txt", res, False)
+    res = open("consensus_krt_19.txt", "w")  # file with final consensus sequences
+    get_consensus_from_clusters(clustalo_clusters[1], input_file_name, res, False)
+    get_consensus_from_clusters(muscle_clusters[1], input_file_name, res, False)
     res.close()
 
 
-main()
-
-
-
-# two_seq_alignment(get_sequences_from_fasta_file("consensus.txt"), "consensus_pairwise.txt")
-# alignment_with_clustalo("consensus.txt", "consensus.clustalo")
-# alignment_with_muscle("consensus.txt", "consensus.muscle")
-
+# sequences = extract_sequences("KRT19/krt19_cds.txt", 948, 1203)
+# write_to_txt(sequences, 'krt_19_948-1203.txt')
+main("krt_19_948-1203.txt")
 
