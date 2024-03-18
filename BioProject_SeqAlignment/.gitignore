@@ -11,3 +11,4 @@ ncbi_dataset
 /.idea/
 .idea
 /clustal-omega-1.2.2-win64/
+WorkDistrib.py
