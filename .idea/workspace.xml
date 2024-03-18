@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e77b662-c9b5-406e-840e-22641ed58317" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/BioProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/BioProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioProject_SeqAlignment/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BioProject_SeqAlignment/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/BioProject_SeqAlignment/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +32,7 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/BioInformatics"
   }
 }]]></component>
