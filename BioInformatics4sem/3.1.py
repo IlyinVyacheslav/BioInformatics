@@ -1,3 +1,4 @@
+# RNA secondary structure. returns number of paired bases in an optimal secondary structure without crossings
 weights = {
     ('A', 'U'): 1,
     ('U', 'A'): 1, 
@@ -8,7 +9,7 @@ weights = {
 s = input()
 n = len(s)
 
-dp = [[0]* n for _ in range(n)]
+dp = [[0] * n for _ in range(n)]
 
 
 for x in range(2, n):

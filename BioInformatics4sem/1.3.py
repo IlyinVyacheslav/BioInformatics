@@ -1,3 +1,4 @@
+# returns the weight of global alignment of 2 sequences with fine for opening the gap
 from enum import Enum
 
 

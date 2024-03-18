@@ -1,4 +1,5 @@
-# RNA secondary structure. returns representation of paired bases in an optimal secondary structure without crossings
+# RNA secondary structure. Nussinov algorithm
+# returns representation of paired bases in an optimal secondary structure without crossings
 weights = {
     ('A', 'U'): 1,
     ('U', 'A'): 1, 

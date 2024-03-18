@@ -1,3 +1,4 @@
+# global alignment of 2 sequences
 mu = -1
 sigma = -2
 match = 1

@@ -1,3 +1,4 @@
+# global alignment of 2 sequences using BLOSUM62 matrix
 from Bio.Align import substitution_matrices
 blosum62 = substitution_matrices.load("BLOSUM62")
 
