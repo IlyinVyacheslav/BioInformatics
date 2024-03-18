@@ -1,0 +1,11 @@
+*.txt
+.idea
+*.clustalo
+*.muscle
+*.exe
+!KRT19
+!Klebsiella
+muscle5.1.linux_intel64
+muscle5.1.macos_arm64
+clustal-omega-1.2.2-win64
+ncbi_dataset

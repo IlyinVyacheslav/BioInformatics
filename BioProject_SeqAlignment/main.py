@@ -6,9 +6,6 @@ from Bio import pairwise2
 from Bio import AlignIO
 from Bio import SeqIO
 from Bio.Seq import Seq
-from Bio import motifs
-from Bio.SeqRecord import SeqRecord
-from Bio.Align import MultipleSeqAlignment
 from Bio.Align.AlignInfo import SummaryInfo
 from Bio.Phylo.TreeConstruction import DistanceCalculator
 from Bio.Align.Applications import ClustalOmegaCommandline
@@ -220,7 +217,6 @@ def write_to_txt(sequences, txt_path):
 
 
 def main(input_file_name):
-
     # print(consensus_seq("output.muscle"))
     alignment_with_clustalo(input_file_name, "krt_19.clustalo")
     alignment_with_muscle(input_file_name, "krt_19.muscle")
@@ -258,4 +254,3 @@ def main(input_file_name):
 # sequences = extract_sequences("KRT19/krt19_cds.txt", 948, 1203)
 # write_to_txt(sequences, 'krt_19_948-1203.txt')
 main("krt_19_948-1203.txt")
-
