@@ -1,5 +1,4 @@
 # returns phylogenetic tree in Newick format from the given distance matrix using UPGMA
-import sys
 
 class Cluster(object):
     def __init__(self, name):
